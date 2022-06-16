@@ -15,18 +15,23 @@ namespace ConsoleApp.NETFramworkHttp
         static void Main(string[] args)
         {
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com/");
+            client.BaseAddress = new Uri("https://api.eia.gov/v2/electricity/retail-sales/data/?api_key=Db2HV0bhkALMfJIdjHZ3rArIwIAhzvVUEzvFg6sI");
             // Add an Accept header for JSON format.
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             // List all Names.
-            HttpResponseMessage response = client.GetAsync("users").Result;  // Blocking call!
+            HttpResponseMessage response = client.GetAsync("?api_key=Db2HV0bhkALMfJIdjHZ3rArIwIAhzvVUEzvFg6sI&facets[stateid][]=PA&facets[sectorid][]=RES&data[]=price").Result;  // Blocking call!
             if (response.IsSuccessStatusCode)
             {
                 var results = response.Content.ReadAsStringAsync().Result;
-                dynamic data = JsonConvert.DeserializeObject<List<ExpandoObject>>(results);
+                dynamic data = JsonConvert.DeserializeObject<List<ExpandoObject>>("["+results+"]");
 
                 
-                Console.WriteLine(data[0].name);
+                 foreach(dynamic var in data[0].response.data)
+                {
+                    Console.WriteLine(String.Format("{0},{1}", var.period, var.price));
+                };
+             
+                Console.ReadLine();
 
             }
             else
