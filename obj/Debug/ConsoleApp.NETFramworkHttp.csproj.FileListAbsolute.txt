@@ -1,0 +1,11 @@
+C:\Users\Mspag\Desktop\ConsoleApp.NETFramworkHttp\bin\Debug\ConsoleApp.NETFramworkHttp.exe.config
+C:\Users\Mspag\Desktop\ConsoleApp.NETFramworkHttp\bin\Debug\ConsoleApp.NETFramworkHttp.exe
+C:\Users\Mspag\Desktop\ConsoleApp.NETFramworkHttp\bin\Debug\ConsoleApp.NETFramworkHttp.pdb
+C:\Users\Mspag\Desktop\ConsoleApp.NETFramworkHttp\obj\Debug\ConsoleApp.NETFramworkHttp.csproj.AssemblyReference.cache
+C:\Users\Mspag\Desktop\ConsoleApp.NETFramworkHttp\obj\Debug\ConsoleApp.NETFramworkHttp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mspag\Desktop\ConsoleApp.NETFramworkHttp\obj\Debug\ConsoleApp.NETFramworkHttp.csproj.CoreCompileInputs.cache
+C:\Users\Mspag\Desktop\ConsoleApp.NETFramworkHttp\obj\Debug\ConsoleApp.NETFramworkHttp.exe
+C:\Users\Mspag\Desktop\ConsoleApp.NETFramworkHttp\obj\Debug\ConsoleApp.NETFramworkHttp.pdb
+C:\Users\Mspag\Desktop\ConsoleApp.NETFramworkHttp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mspag\Desktop\ConsoleApp.NETFramworkHttp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mspag\Desktop\ConsoleApp.NETFramworkHttp\obj\Debug\ConsoleApp.NETFramworkHttp.csproj.CopyComplete
